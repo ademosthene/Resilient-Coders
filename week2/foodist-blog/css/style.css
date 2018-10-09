@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  font-family: lato;
+}
+
+header h1{
+  color: red;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+header h2{
+  font-weight: 300;
+}
+
+nav ul{
+  padding: 0px;
+}
+nav ul li{
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+nav ul li a{
+  font-weight: 300;
+  color: gray;
+}
+article{
+  position: relative;
+}
+article h3{
+  color: gray;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 50px;
+}
+article h2 a{
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+article img{
+  height: 150px;
+}
+article p{
+  width: 50%;
+}
+article p::first-letter{
+  color: lightgrey;
+  font-size: 300%;
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+article h4 a{
+  float: right;
+  padding-right: 350px;
+  color: red;
+  clear: both;
+}
+#paris{
+  height: 300px;
+  width: 40%;
+}
+footer{
+  clear: both;
+  padding-top: 50px;
+}
+footer a{
+  color: red;
+}

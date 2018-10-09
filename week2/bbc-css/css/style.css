@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.container{
+  margin: 0 2.5% 0 2.5%;
+}
+body{
+  margin: 0 2.5% 0 2.5%;
+}
+header{
+  background: black;
+}
+header img, header span, header ul, header form{
+  float: left;
+  width: 20%;
+  color: white;
+}
+header ul{
+  width: 40%;
+}
+header li{
+  float: left;
+}
+.wel{
+  float: left;
+  width: 66%;
+  margin-left: 35px;
+}
+.date{
+  float: right;
+  width: 23%;
+  margin-left: 35px;
+}
+.topSec{
+  height: 600px;
+  margin-bottom: 30px;
+}
+.topSec h2{
+  font-size: 25px;
+  color: white;
+  width: 70%;
+  margin: 0;
+}
+.topSecLeft{
+  color: white;
+}
+.topSecLeft h2{
+  margin-top: 309px;
+  margin-left: 10px;
+}
+.topSecLeft p{
+  margin-left: 10px;
+}
+.topSecLeft span{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.topSec > h2:last-of-type{
+  float: right;
+  width: 25%;
+}
+.topSecContainer{
+  clear: both;
+}
+.topSec > section > section{
+  width: 49%;
+  float: left;
+  height: 520px;
+  background: red;
+  margin-bottom: 10px;
+}
+
+.topSec > section > section:first-of-type{
+  margin: 0 1% 25px 0;
+  background: url(../img/trump.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.topSec > section > section:last-of-type {
+  margin: 0 0 25px 1%;
+  background: lightgray;
+}
+.topSecQuad > section{
+  width: 49%;
+  height: 245px;
+  background: black;
+  float: left;
+
+}
+.topSecQuad section:nth-child(1), .topSecQuad section:nth-child(2){
+  margin-bottom: 10px;
+}
+
+.topSecQuad > section:nth-child(even){
+  margin-left: 2%;
+}
+.topSecQuad h2{
+  color: white;
+  float: left;
+  width: 99%;
+  margin-top: 126px;
+}
+.topSecQuad section:nth-child(1){
+  background: url(../img/comp.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.topSecQuad section:nth-child(2){
+  background: url(../img/tiller.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.topSecQuad section:nth-child(3){
+  background: url(../img/oxford.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.topSecQuad section:nth-child(4){
+  background: url(../img/office.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.topSecQuad span{
+  color: white;
+  margin-top: 10px;
+  float: left;
+  text-transform: uppercase;
+}
+.bottomSec{
+  height: 600px;
+}
+.bottomSec section{
+  height: 250px;
+  width: 30%;
+  background: black;
+  float: left;
+}
+.bottomSec section:nth-child(3){
+  margin: 0 .5% 0 .5%;
+}
+.bottomSec section:nth-child(2){
+  background: url(../img/trumputin.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bottomSec section:nth-child(3){
+  background: url(../img/btmtiller.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bottomSec section:nth-child(4){
+  background: url(../img/bacteria.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*header*/
+
+header{
+  height: 50px;
+}
+
+header ul

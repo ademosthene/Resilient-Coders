@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url("../img/farm.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Armata', sans-serif;
+  font-size: 22px;
+}
+h1{
+  margin-left: 3%;
+}
+.farm {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.farm section{
+  height: 450px;
+  width: 30%;
+  float: left;
+}
+
+#horse {
+  width: 25%;
+  background: url("../img/horse.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 220px;
+  margin-left: 10%;
+}
+
+#cow {
+  width: 13%;
+  background: url("../img/cow.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 250px;
+}
+
+#cat {
+  width: 10%;
+  background: url("../img/cat.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 290px;
+}

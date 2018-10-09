@@ -1,0 +1,88 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+body{
+  background: thistle;
+  text-align: center;
+  font-family: papyrus, fantasy; font-size: 18px;
+}
+header{
+  height: 80px;
+}
+.info{
+  padding-top: 25px;
+  height: 80px;
+}
+.horoscope{
+  height: 180px;
+  width: 95%;
+  margin-left: 3%;
+}
+.signs{
+  width: 90%;
+  margin: 0 3% 0 5%;
+  background: silver;
+  padding-top: 5px;
+}
+.signs section{
+  height: 290px;
+  width: 26%;
+  margin: 0 1% 15px 5%;
+  float: left;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aries{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-aries.png");
+}
+.taurus{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-taurus.png");
+}
+.gemini{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-gemini.png");
+}
+.cancer{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-cancer.png");
+}
+.leo{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-leo.png");
+}
+.virgo{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-virgo.png");
+}
+.libra{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-libra.png");
+}
+.scorpio{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-scorpio.png");
+}
+.sag{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-sagittarius.png");
+}
+.capricorn{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-capricorn.png");
+}
+.aquarius{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-aquarius.png");
+}
+.pisces{
+  background: url("https://www.horoscope.com/images-FR/signs/profile-pisces.png");
+}

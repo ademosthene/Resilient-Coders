@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+}
+.logo{
+  width: 20%;
+  float: left;
+}
+.logo img{
+  height: 100px;
+  width: 80%;
+}
+.mainNav{
+  width: 40%;
+  float: left;
+}
+.mainNav section{
+  height: 50px;
+  width: 80%;
+  float: left;
+  border: 1px solid black;
+}
+.mainNav p{
+  margin-left: 40px;
+}
+.mainNav section ul{
+  list-style: none;
+  overflow: hidden;
+}
+.mainNav section ul li{
+  float: left;
+  margin: 0 15px 0 0;
+}
+.sideNav{
+  float: left;
+  width: 40%;
+}
+.sideNav section{
+  height: 50px;
+  width: 100%;
+  float: left;
+  border: 1px solid black;
+}
+.sideNav section ul{
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+.sideNav section ul li{
+  float: left;
+  margin: 0 10px 0 0;
+}
+.greenBar{
+  border: 1px solid black;
+  background: green;
+  color: white;
+  text-align: center;
+}
+.greenBar h1{
+  display: inline;
+}
+.greenBar p{
+  display: inline;
+}
+.watch{
+  float: left;
+  width: 560px;
+}
+.watch img{
+  height: 345px;
+  width: 545px;
+}
+.watch p{
+  font-style: italic;
+  color: gray;
+}
+.subtitle{
+  border: 1px solid black;
+  float: left;
+  width: 545px;
+}
+.subtitle img{
+  width: 14%;
+  height: 53px;
+  float: left;
+}
+.subtitle span{
+  background: black;
+  color: white;
+  height: 53px;
+  width: 56%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle span:last-of-type{
+  float: right;
+  height: 40px;
+  width: 30%;
+  font-size: 10px;
+  text-align: left;
+}
+.subtitle small{
+  float: right;
+  width: 30%;
+  background: black;
+  color: lightblue;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.farm{
+  background-color: black;
+  width: 100%;
+}
+.stories{
+  float: left;
+  width: 20%;
+  padding-right: 10px;
+}
+.stories ul{
+  list-style: none;
+  padding: 0;
+}
+.stories li{
+  float: left;
+  padding-bottom: 10px;
+}
+.stories ul img{
+  width: 44%;
+  height: 85px;
+  float: left;
+  object-fit: cover;
+  object-position: center;
+}
+.stories ul span{
+  width: 55%;
+  float: left;
+  padding-left: 10px;
+}
+.stories ul small{
+  float: right;
+  width: 52%;
+  font-style: italic;
+  color: gray;
+}
+.tip{
+  float: right;
+  width: 33%;
+  padding-right: 110px;
+}
+.tip a{
+  text-decoration: none;
+}
+.tip h2{
+  text-align: center;
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.tip p{
+  font-size: 20px;
+}
+.tip ul{
+  list-style: none;
+  padding: 0;
+}
+.tip li{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.tip a{
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  padding-right: 88px;
+  font-size: 12px;
+}
+.subs span{
+  font-weight: bold;
+  padding-top: 3px;
+}
+.subs p{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}

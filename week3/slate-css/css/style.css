@@ -1,0 +1,270 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 10px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.left, .right{
+  height: 700px;
+  border: 1px solid black;
+  float: left;
+}
+.left{
+  width: 70%;
+}
+.right{
+  width: 30%;
+}
+.hidden{
+  display: none;
+  width: 100%;
+  height: 56px;
+  background: maroon;
+  color: white;
+}
+.right header{
+  width: 100%;
+  height: 56px;
+  background: maroon;
+  color: white;
+}
+.right h1, .right ul{
+  width: 40%;
+  float: left;
+  padding: 0;
+}
+.right h1{
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  margin-left: 2%;
+}
+.right .menu{
+  margin: 12px 0 0 12%;
+}
+.right ul li{
+  list-style: none;
+  display: inline;
+  font-size: 21px;
+  margin-left: 16%;
+}
+.recent ul{
+  height: 30px;
+  width: 100%;
+  float: left;
+  margin: 0;
+  color: white;
+  background: black;
+}
+.recent ul li{
+  float: left;
+  font-size: 13px;
+  margin: 5px 16% 5px 8%;
+  padding-top: 1px;
+}
+.recent ul a{
+  color: yellow;
+  text-decoration: none;
+}
+.trump, .stories{
+  float: left;
+  border: 1px solid black;
+  height: 350px;
+  width: 100%;
+}
+.trump element{
+  float: left;
+}
+.trump{
+  background: url("https://i.pinimg.com/564x/1f/20/4a/1f204a732215efdcf0318dc9f4479e35.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.title{
+  width: 30%;
+  margin-right: 0;
+  float: left;
+  padding: 40px 0 0 10px;
+}
+.trump h2{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+.trump p{
+  color: yellow;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  padding-left: 40px;
+  width: 94%;
+}
+.trump small{
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  padding-left: 70px;
+}
+.trump h3, ul{
+  float: left;
+  width: 70%;
+  margin-top: 20px;
+  padding-left: 290px;
+}
+.trump h3{
+  text-align: center;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.trump li{
+  font-size: 16px;
+  list-style: none;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.list{
+  height: 70px;
+  width: 90%;
+  float: left;
+  margin: 10px 0 0 5%;
+}
+.list span{
+  color: gray;
+}
+.leftSq{
+  float: left;
+  height: 150px;
+  width: 30%;
+  font-size: 20px;
+}
+.leftSq img{
+  height: 150px;
+  width: 100%;
+}
+.leftSq h3{
+  padding: 2%;
+}
+.rightSq{
+  float: right;
+  height: 150px;
+  width: 40%;
+  font-size: 17px;
+  padding: 1%;
+}
+.rightSq span{
+  font-style: italic;
+}
+.stories section:last-of-type{
+  background: maroon;
+  color: white;
+  margin-top: 1%;
+}
+footer{
+  clear: both;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background: black;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2.5px;
+}
+footer a{
+  color: yellow;
+}
+/* MOBILE */
+@media only screen and (max-width: 768px){
+  .left{
+    display: none;
+  }
+  .right{
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .left{
+    width: 100%;
+    height: auto;
+  }
+  .right{
+    display: none;
+    height: auto;
+    width: 100%;
+  }
+  .hidden{
+    display: inline;
+    width: 100%;
+    float: left;
+  }
+  .hidden h1{
+    width: 40%;
+    margin: 0;
+  }
+  .hidden .menu{
+    float: right;
+    padding: 0;
+    width: 20%;
+    margin: 0;
+    display: inline;
+    margin-right: -10%;
+  }
+  .menu li{
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .menu li:first-child{
+    /* margin-left: 3%; */
+  }
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+header, footer{
+  color: green;
+  height: 100px;
+  border: 3px solid purple;
+  padding: 10px;
+  clear: both;
+}
+
+section{
+  background: yellow;
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+
+.bottomRow{
+  width: 33%;
+}
+
+#rightBox{
+  width: 66%;
+}

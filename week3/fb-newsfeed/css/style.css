@@ -1,0 +1,151 @@
+header, .leftEmpty, .options, .feed, .stories, .rightEmpty{
+  border: 1px solid #DCDCDC;
+}
+body{
+  background-color: #DCDCDC;
+  font-family: helvetica;
+}
+header{
+  height: 65px;
+  width:100%;
+  background-color: #3b5998;
+  clear: both;
+}
+header img{
+  margin-left: 12%;
+  width:50px;
+  height:50px;
+  margin-top: 10px;
+}
+header input{
+  margin-left: 5%;
+  position: absolute;
+  top:35px;
+  width:400px;
+}
+header button{
+  position:absolute;
+  margin-left: 33%;
+  top: 35px;
+}
+.rightHeader{
+  float: right;
+  width: 35%;
+  height:12%;
+}
+.rightHeader img{
+  height: 35px;
+}
+.rightHeader a, #lefticon{
+  color: white;
+  margin-right: 10px;
+}
+.leftEmpty{
+  width:13%;
+  height:700px;
+  float:left;
+  background-color: #DCDCDC;
+}
+.options{
+  width:16%;
+  height:700px;
+  float: left;
+  background-color: #DCDCDC;
+}
+.options ul{
+  list-style: none;
+  margin-top: 30px;
+}
+.options ul li{
+  margin-bottom: 12px;
+}
+.options p{
+  margin-left:35px;
+  margin-top: 25px;
+  font-weight: bold;
+  color:grey;
+}
+.feed{
+  width:35%;
+  height:700px;
+  float: left;
+  background-color: #DCDCDC;
+}
+.feed input{
+  height:50px;
+  width: 95%;
+  margin-top: 20px;
+}
+.feed .post{
+  background-color: lightgray;
+  margin-top: 20px;
+  height:400px;
+  width:97%;
+}
+.feed .post a {
+  text-decoration: none;
+  font-size: 17px;
+}
+.feed .post p{
+  font-size:15px;
+  color:grey;
+}
+.feed #fbpic{
+  height:300px;
+  width:100%;
+}
+.stories{
+  width:20%;
+  height:700px;
+  float: left;
+  background-color: #DCDCDC;
+  margin-bottom: 25px;
+}
+.stories .add{
+  height:250px;
+  width: 100%;
+  background-color: white;
+}
+.stories .add p{
+  font-weight: bold;
+  color:grey;
+}
+.stories ul{
+  list-style: none;
+}
+.stories ul li{
+  margin-bottom: 12px;
+}
+.stories .event{
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding-left:20px;
+  padding-top: 12px;
+  margin-bottom: 25px;
+}
+.stories .trend{
+  color: black;
+  font-size: 12px;
+  background-color: white;
+  padding-bottom: 15px;
+}
+.stories .trend h6{
+  font-weight: bold;
+  color:grey;
+  font-size: 12px;
+}
+.stories .watch{
+  font-size: 14px;
+  background-color: white;
+  margin-top: 20px;
+  padding-bottom: 6px;
+}
+.rightEmpty{
+  width:15%;
+  height:700px;
+  float: left;
+  background-color: #DCDCDC;
+}

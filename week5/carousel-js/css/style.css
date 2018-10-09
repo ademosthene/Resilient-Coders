@@ -1,0 +1,16 @@
+body{
+  background: pink;
+}
+header, footer{
+  height: 100px;
+  clear: both;
+  border: 1px solid green;
+}
+#content{
+  height: 100px;
+  width: 20%;
+  background: url("../img/apple.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
