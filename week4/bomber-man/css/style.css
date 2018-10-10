@@ -1,3 +1,19 @@
 body{
   background: url("http://www.outerra.com/shots/k122.jpg");
+  position: relative;
+}
+h1{
+  width: 30%;
+  float: left;
+  color: white;
+  margin-left: 1%;
+  position:absolute;
+  top:95vh;
+  transform:translateY(-110%);
+  width:40%;
+}
+img{
+  width: 10%;
+  float: right;
+  margin-bottom: 20px;
 }

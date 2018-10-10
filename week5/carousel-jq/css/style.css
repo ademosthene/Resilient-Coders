@@ -9,7 +9,6 @@ header, footer{
 #content{
   height: 100px;
   width: 20%;
-  background: url("../img/apple.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
