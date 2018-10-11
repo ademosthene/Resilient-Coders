@@ -1,8 +1,7 @@
-
+// Waits until document loads to execute functions
 $(document).ready(function(){
-
-  var imgArray = ["apple.jpg","banana.jpg","broccoli.jpg","carrot.jpeg","grape.jpg","lettuce.png","melon.jpg"];
-  var index = 4;
+  var imgArray = ["apple.jpg","banana.png","broccoli.png","carrot.png","grape.png","lettuce.png","melon.png"];
+  var index = 0;
   changeImg(index);
 
   // Behavior for when next button clicked
@@ -22,7 +21,7 @@ $(document).ready(function(){
     }
     changeImg(index);
   });
-
+  // Changes image displayed and also applies formatting
   function changeImg(idx){
     $('#content').css('background','url("img/' + imgArray[idx] + '")');
     $('#content').css('background-size','contain');
